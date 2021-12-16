@@ -37,7 +37,7 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.baschrc
 pip install pipenv
 
 # notion
-sudo apt isntall snapd
+sudo apt install snapd
 sudo snap install notion-snap
 
 # Hydra paper
