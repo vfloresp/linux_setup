@@ -7,6 +7,7 @@ vim.opt.mouse = "a"
 vim.opt.hlsearch = true
 vim.opt.showmode = false
 vim.opt.smartcase = true
+vim.opt.termguicolors = true
 vim.opt.smartindent = true 
 vim.opt.splitbelow = true
 vim.opt.splitright = true
