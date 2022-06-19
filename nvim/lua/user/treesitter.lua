@@ -37,5 +37,9 @@ configs.setup {
             "Green",
             "Red"
         }
-      }
+    },
+    context_commentstring = {
+        enable = true,
+        enable_autocmd = false,
+    },
 }
