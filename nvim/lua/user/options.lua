@@ -19,7 +19,7 @@ vim.opt.relativenumber = true
 vim.opt.signcolumn = "yes"
 vim.opt.wrap = false
 vim.opt.scrolloff = 8 
-vim.opt.colorcolumn="80"
+vim.opt.colorcolumn="88"
 
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[hi ColorColumn ctermbg=grey guibg=grey]]

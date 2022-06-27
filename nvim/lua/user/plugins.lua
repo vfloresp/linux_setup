@@ -47,6 +47,8 @@ return packer.startup(function(use)
     }
     use "akinsho/bufferline.nvim"
     use "moll/vim-bbye"
+    use "akinsho/toggleterm.nvim"
+    use 'nvim-lualine/lualine.nvim'
 
     -- coloschemes
     use "lunarvim/colorschemes"
