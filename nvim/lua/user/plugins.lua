@@ -49,6 +49,7 @@ return packer.startup(function(use)
     use "moll/vim-bbye"
     use "akinsho/toggleterm.nvim"
     use 'nvim-lualine/lualine.nvim'
+    use "lukas-reineke/indent-blankline.nvim"
 
     -- coloschemes
     use "lunarvim/colorschemes"
