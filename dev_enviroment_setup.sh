@@ -5,10 +5,10 @@ apt update
 apt install python3-pip
 
 # Vim
-apt install vim
+apt install neovim
 
 # Neofetch
-apt isntall neofetch
+apt install neofetch
 
 # node/npm 
 # After downloading in same directory latest tar.xz NodeJS file
@@ -23,7 +23,7 @@ touch ~/.alacritty.yml
 
 # pyenv
 #first install dependencies
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
+sudo apt install -y make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev openssl
 # install pyenv installer
@@ -36,9 +36,7 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.baschrc
 # pipenv
 pip install pipenv
 
-# notion
-sudo apt install snapd
-sudo snap install notion-snap
+
 
 # Hydra paper
 sudo apt-get install flatpak
