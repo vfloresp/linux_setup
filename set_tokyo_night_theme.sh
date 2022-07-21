@@ -9,4 +9,4 @@ cp -r Tokyo-Night-GTK-Theme/themes/Tokyonight-Dark-BL/ ~/.local/share/themes/
 cp -r Tokyo-Night-GTK-Theme/icons/tokyonight_dark/ ~/.local/share/icons/
 cp -r Tokyo-Night-GTK-Theme/wallpapers ~/Pictures/
 
-rm -r Tokyo-Night-GTK-Theme
+sudo rm -r Tokyo-Night-GTK-Theme

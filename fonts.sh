@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Nerd font Fira code
 mkdir -p ~/.local/share/fonts/
 mkdir ./FiraCode
 
@@ -8,4 +9,7 @@ unzip FiraCode.zip -d ./FiraCode
 
 mv ./FiraCode ~/.local/share/fonts/
 
-fc-cache -v
+rm FiraCode.zip
+
+fc-cache -f -v
+
