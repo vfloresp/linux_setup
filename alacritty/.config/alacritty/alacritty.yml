@@ -40,6 +40,9 @@ window:
 
 font:
   size: 13
+  normal:
+    family: FiraCode NF
+    style: Regular
 
 cursor:
   # Cursor style
