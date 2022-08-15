@@ -54,6 +54,21 @@ apt install -y stow
 apt install ttf-mscorefonts-installer
 fc-cache -f -v
 
+# fonts
+apt install fonts-powerline
+
 # Requiered directories
 sudo -u vfloresp mkdir -p ~/.config/alacritty/
 sudo -u vfloresp mkdir -p ~/.config/zsh/
+
+# zsh
+apt install zsh
+chsh -s $(which zsh)
+
+# Oh my zsh
+apt install git curl
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
+
